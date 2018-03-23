@@ -8,7 +8,7 @@
       "hostname": "www",
       "template": "apache",
       "peer-criteria": "gr1",
-      "size": "SMALL",
+      "size": "${containerSize}",
       "distribution": "d1"
     }
   ],
@@ -23,5 +23,13 @@
     {
       "name": "gr1"
     }
-  ]
+  ],
+  "user-variables": {
+  "containerSize": {
+            "description": "Container Size",
+            "type": "enum",
+            "default": "TINY",
+            "validation": "TINY,SMALL,MEDIUM,LARGE,HUGE"
+        }
+  }
 }
