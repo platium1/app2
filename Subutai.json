@@ -8,13 +8,20 @@
       "hostname": "www",
       "template": "apache",
       "peer-criteria": "gr1",
-      "size": "SMALL"
+      "size": "SMALL",
+      "distribution": "d1"
+    }
+  ],
+  "distributions": [
+    {
+      "name": "d1",
+      "peer-count": "1",
+      "container-per-rh": "1"
     }
   ],
   "peer-criteria": [
     {
-      "name": "gr1",
-      "max-price": "50"
+      "name": "gr1"
     }
   ]
 }
