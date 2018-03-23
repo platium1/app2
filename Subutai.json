@@ -1,0 +1,20 @@
+{
+  "name": "env",
+  "description": "test",
+  "version": "1.0.0",
+  "author": "Sydyk",
+  "containers": [
+    {
+      "hostname": "www",
+      "template": "apache",
+      "peer-criteria": "gr1",
+      "size": "SMALL"
+    }
+  ],
+  "peer-criteria": [
+    {
+      "name": "gr1",
+      "max-price": "50"
+    }
+  ]
+}
