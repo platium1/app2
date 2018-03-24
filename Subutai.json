@@ -10,6 +10,13 @@
       "peer-criteria": "gr1",
       "size": "${containerSize}",
       "distribution": "d1"
+    },
+    {
+      "hostname": "kkk",
+      "template": "apache",
+      "peer-criteria": "gr1",
+      "size": "${containerSize}",
+      "distribution": "d1"
     }
   ],
   "distributions": [
