@@ -10,12 +10,24 @@
       "peer-criteria": "gr1",
       "size": "${containerSize}",
       "distribution": "d1"
+    },
+    {
+      "hostname": "debi",
+      "template": "debian-stretch",
+      "peer-criteria": "gr1",
+      "size": "${containerSize}",
+      "distribution": "d2"
     }
   ],
   "distributions": [
     {
       "name": "d1",
       "peer-count": "2",
+      "container-per-rh": "2"
+    }
+    ,{
+      "name": "d2",
+      "peer-count": "1",
       "container-per-rh": "2"
     }
   ],
