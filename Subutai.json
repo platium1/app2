@@ -22,8 +22,8 @@
   "distributions": [
     {
       "name": "d1",
-      "peer-count": "2",
-      "container-per-rh": "2"
+      "peer-count": "3",
+      "container-per-rh": "1"
     }
   ],
   "peer-criteria": [
