@@ -29,9 +29,6 @@
   "peer-criteria": [
     {
       "name": "gr1"
-    },
-     {
-      "name": "gr2"
     }
   ],
   "user-variables": {
