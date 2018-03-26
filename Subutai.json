@@ -14,9 +14,9 @@
     {
       "hostname": "kkk",
       "template": "apache",
-      "peer-criteria": "gr2",
+      "peer-criteria": "gr1",
       "size": "${containerSize}",
-      "distribution": "d1"
+      "distribution": "d2"
     }
   ],
   "distributions": [
@@ -27,7 +27,7 @@
     },
      {
       "name": "d2",
-      "peer-count": "1",
+      "peer-count": "3",
       "container-per-rh": "1"
     }
     
@@ -35,9 +35,6 @@
   "peer-criteria": [
     {
       "name": "gr1"
-    },
-      {
-      "name": "gr2"
     }
   ],
   "user-variables": {
