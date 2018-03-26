@@ -22,16 +22,13 @@
   "distributions": [
     {
       "name": "d1",
-      "peer-count": "1",
+      "peer-count": "2",
       "container-per-rh": "1"
     }
   ],
   "peer-criteria": [
     {
       "name": "gr1"
-    },
-     {
-      "name": "gr2"
     }
   ],
   "user-variables": {
