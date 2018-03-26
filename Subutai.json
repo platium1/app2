@@ -23,7 +23,7 @@
     {
       "name": "d1",
       "peer-count": "1",
-      "container-per-rh": "2"
+      "container-per-rh": "1"
     }
   ],
   "peer-criteria": [
