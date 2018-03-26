@@ -22,7 +22,7 @@
   "distributions": [
     {
       "name": "d1",
-      "peer-count": "3",
+      "peer-count": "1",
       "container-per-rh": "2"
     }
   ],
