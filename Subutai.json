@@ -44,5 +44,24 @@
             "default": "TINY",
             "validation": "TINY,SMALL,MEDIUM,LARGE,HUGE"
         }
-  }
+  },
+   "ansible-configuration": {
+        "source-url": "https://github.com/platium1/app2/archive/master.zip",
+        "ansible-playbook": "main.yml",
+        "extra-vars": [],
+        "groups": [
+            {
+                "name": "monitoring_servers",
+                "hostnames": [
+                    "www"
+                ]
+            },
+            {
+                "name": "webservers",
+                "hostnames": [
+                    "kkk"
+                ]
+            }
+        ]
+    },
 }
