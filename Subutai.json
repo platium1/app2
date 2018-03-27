@@ -9,26 +9,26 @@
       "template": "apache",
       "peer-criteria": "gr1",
       "size": "${containerSize}",
-      "distribution": "d1"
+      "peer-layout": "d1"
     },
     {
       "hostname": "kkk",
       "template": "apache",
       "peer-criteria": "gr1",
       "size": "${containerSize}",
-      "distribution": "d2"
+      "peer-layout": "d2"
     }
   ],
-  "distributions": [
+  "peer-layouts": [
     {
       "name": "d1",
       "peer-count": "1",
-      "container-per-rh": "1"
+      "container-per-peer": "1"
     },
      {
       "name": "d2",
       "peer-count": "3",
-      "container-per-rh": "1"
+      "container-per-peer": "1"
     }
     
   ],
