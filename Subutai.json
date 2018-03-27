@@ -53,12 +53,14 @@
     "groups": [
       {
         "name": "monitoring_servers",
+        "python-interpreter": "/usr/bin/python3",
         "hostnames": [
           "www"
         ]
       },
       {
         "name": "webservers",
+        "python-interpreter": "/usr/bin/python3",
         "hostnames": [
           "kkk"
         ]
